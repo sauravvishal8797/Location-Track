@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/c6101664fb05e8d58578673de8a0c2d399169499/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="416fb9ee2fd6e7af0bba04b01d90cb475b1e2074">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_c7c121f77735a5ac081dbe564be8f2ddb4e90dc8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/9cb3969cbbcce305a68e15015899ee5f3615fd9c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a25b0b5aec89681b95d32780ad7904c1e1e4c679">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_16ae06c7b96eb2eab9c7282ba386dd2233532c25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/53745bbba7d21d7911269b5c51df117dae4eca46/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7c24e2e9773fb498e390ce973db382c3ddcf748e">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_7a6135137d59ac5da9bb41a8f121a4214a6a05a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/9a7ec61782d7553dab979b4f129b29d90b466c27/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0bffdc0bd4f7ca0e27c5bfeef39569f8da00aa26">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_2ee397d311bb671bf3dbed46bcf44708f5a3a68f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/0d32eb529a2e533b5c188943c6d19597165e9b29/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="377c5f26ebf67f3fa6ef2f663a58cac7ce647dde">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_a14f1983cf9e0f431619ed018f69faaf79233a5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/0ce9d32065bec4d9ea21f72affc490c1e53a9743/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="dd282bdeaa904c59d77e57dedd7e0a241c9b679d">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_26a45d91df05c45a3f9f29ec829a22aef6702d31.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/saurav/.android/build-cache/0ce9d32065bec4d9ea21f72affc490c1e53a9743/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="dd282bdeaa904c59d77e57dedd7e0a241c9b679d">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_26a45d91df05c45a3f9f29ec829a22aef6702d31/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/64e968b087cc30c7031990d0e3896b207da2b471/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e7f890dd2539b7f2582f450f0721e2dea6ae510c">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_0f35657624b7186ee7f32433497010df7c0dfad2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/bca7b2fa41e2f0a87de095f858e956321293263f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="057fb316bed8467398333f30926c2d5506e275b2">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_765e678a707263bd36d13e46fc3fa2e1bb6b5709.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/fff5634e87dd986bffc42a79d03b8bb59b4333e7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ed87ccdcb70c17d71ba4e6e4ac16afa62d3c49fb">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_f2e0235de4f3a4f11a73abacb0726b2f5a96c753.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/affbfcca473c06a03323c6cc1495312858ec17e3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_6754659029bbed65799d4433ca26f4c7d2624062.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/ac1fa54308b9faa096a60b6e3ca23d35a9bce016/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="43e9789bd3240271265ab30ce1be9f224843f5a8">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_fac524b907ae99a8f640558400208d4d023d7b58.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/3168bb7c680823935c296489d1138fcd08655ff3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c175c3009577fad8b433703f5d7ac2dc21d3871f">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_93065a695daf2e55e92e0af80eecab1eaba3038b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/9bfc9503e087241dfcd6be579cd97b1c19601149/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bfba7cf662f7e3e2cfeb92226c6b84c08e590225">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_4b1ce841c01afab99caa3e4dea510cfa8d187e32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/0c4d371e9b8360a9126805407979a2babf19a0bf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1b12397bc9f342b29d9e9108978828f99a6da579">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_741475f1afdd448962a238987d741290e1406a01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/d396b9a6673a88f8718b48f14799e78c690126fd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_7df1b5c3b2a1514cb96424bfbe9b9e3442c86183.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/300ef9ab9b461021fa000c5edc65819d38e4ed5f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="02b91f8efa91dcdf5c555ee24b7f006f02cd0f8b">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_8614cc35fe3ee1bd280a048518f7eecd129573dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/ac3b9e855ac4b1f24bc6a71276a2492475777593/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2c73e2a93e00abd240e495c1e62217e53904a3f3">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_b1e30682124cf227610aaa40a3b79184e2538620.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/0d972f58e23adc19b147db038431b41f72338054/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c1b91bc7e480ab100d0397b16c93732e26fd10eb">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_ab9d9554f5c987634502055d788d8106ae3fcaa0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/995abbe052cc7e645f767fdd0747ec4db0e59191/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_9f0100f9df3a566408658939a72c515f967cd38c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/2c05c9d62d9622959edfe2e4d764e06b26284d55/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2c379c235d7983201bb83edfc3c60bb0dafb5805">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_39ca64fbdd0621ea350a029740e64cfe93d99bc1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/4c025ffd4d5aa27e1c53f133be41b9d37f02df6d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a5d52089bf4d31537232bb6bcb70cee817d8a374">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_90a702120ceb232f4f18f984b838f98af46330c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/ef57a98b44b3e9ffc729a3485af4c4427d988b3b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d8942ee348aaa9341f08f7e2437063893fe27542">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_fc4f1cda4fe6ad0a3dc7c978c2bfff97af7f58c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/f368c7ab618a344a2bddd591246fdc19c37c4ae3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="576570f46ff6ccc69a984af9e55ddd58d9549270">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_e0ca0c9f16096246c43095e0c791fbf279893f89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/3e1a8a27cadd8dbb805cbd2cef25779b3cbfaf9f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2c2f1b3f82c027e98f56bb0154de0acbcce42e6d">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_5e8bc59b7549063f676d4958f20a1322a819e93c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/633f0c81a0bfc44cb5d8573c73d9e44a9bd2f6e1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2b12b18c5518021cc71577c83d1290f8ddaa3c98">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_c4e3ff5e6f4024df65e0d02de24bb0932b4ac6c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/1356276e33b38b69457240ec018ea0ce06003f83/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b5b6af36bacf1d812cd3dc45f9dcab9ea471ed91">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_1e04a2657ab53fe5b24befd2f6cb48d6393f014b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/f68fab1772885bd19d9a26c2c375afd18459ac1e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c8bf878c09bf0df6ae76eb6c2df38c6a186b38b7">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_f5c16059e7bf85658a45fe5ac232d706836fc396.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/a1910ea6fa749481466a6a442b29409332a9573e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="34c23b5894b4f24d566bfc33e0e25462c6436b78">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_fbe833bfecf4393bbce252988ee9a6dfd9fe9ed6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/24ca64231a99c5aef0f957b7b0d09ca3257e7137/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="eea424e61a0c85b93a0e477565314a58136abaea">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_2604c6838a633edc91fa9444735f6bedbbc120b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/50e52f7241b17d1ca02ad59318c3a812fad437c9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="56d68d1174b9c1e368017a850b62b12429f39757">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_ab41217f6b3f358149e24ea5ee948ec6dceecde6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/696ee7b14b1802e5229ac132387ea07671b90560/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c6aa915c08cfd82780c10d4b957018bf819a48e2">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_46f5bff1948c338682d674cdb8bb46026d533108.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/a633facb2de6926f898b4760d762657256ef92fe/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3ac08c35419ab7cf9146969de471768dbe502f0f">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_edc6df9d314481570f19bfacff973ef6d7b5b2e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/66d7b328fd88188eab58dec929626cdd177bf9b7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_d8fba8a5faa3e1f1071192d78e0dbe3062417a6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/1be64f423b711369f2730a5ab07664fc95d260ac/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5594a368622908d89c47d9a391aa2724fe046c35">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_88b05f463cd1444f2b6eb42849608dc267a36cc0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/saurav/.android/build-cache/6a74fc9e8a6f56f3f7a27a51937e9408436bb988/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="63b03eaa1aa9b9431c7638841175f9842dcbf274">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dd3ff8eea6bec04ffb79475a27629c8bba14f4b6/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/8be6714a45f1404020f5f4282989ca74c0f59ff5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c6706cc7c8c3093560edd55d322218afe7798aa9">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_664f9c911a57b115883c767e87c993eee40f16fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/d44d8a877c8dc0d15969ed8c39ca9185182ae7aa/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e1625e48a836779b5fa141d22e5d05563aaccc9a">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_de35fa8a32eacb7078f897efba67a3ca2fdc092d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/6a74fc9e8a6f56f3f7a27a51937e9408436bb988/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="63b03eaa1aa9b9431c7638841175f9842dcbf274">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_dd3ff8eea6bec04ffb79475a27629c8bba14f4b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/27bfdfc06937f39e8f1a022ef2fd8ffb0fb160ae/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_8fd99afaa811bff3c32192e7fff05074c149040e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/932ea9b3a371ab35ea55c6e94dc01956942efeba/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="fc3036436defd3070337b7191c50a136ebca7f8f">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_dce04f7d544f1277e4c69591d5018ebf10a4847e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/13fec68844bb6b30659f12bf93ab395beedd0483/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="dae0d68af4c87df40eca67069861e53b7cefaaa0">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_ab2c78491c188a374e214d50af1d4196e115a4bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/f20f29ccc2fed17948a4d092d0d3df8701f9d41b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="41f47bbcd281fdb1e42e220220ab3bfa1da591e0">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_56d26c4942648512a576a2561bc01558a5cdfee2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/138f4862f3d314a8542702a20f9f33ae01449e73/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="fcae52a60bc07924d370b4d376116cd8f8581f54">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_6bed56ee51ae4cf68889b862c0c1a5e67069bab1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/9e9c1a26c96d75d3f7fa556c611ad442e3d88a43/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f15e20dd7bcde7c688cfda44d0c8320a5c1c24b8">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_f938d14d2bd78fd0eebc81b93d31ed74e130aec6.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/saurav/.android/build-cache/1be64f423b711369f2730a5ab07664fc95d260ac/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5594a368622908d89c47d9a391aa2724fe046c35">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_88b05f463cd1444f2b6eb42849608dc267a36cc0/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/d1ddbd3a999ed9c9451d25745ea55e43d8ce594c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ffd0ddf5e57b4d60c4a3fbcd38fa20349a0cebd1">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_e9de9a65d189c4e1b42b88af934c4aa04550a63b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/50874068ccac69d02e08f5f7aa9490d3997cfebd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e5b429c146094a612134910688d169ec08deeefb">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_ef58b3b3f455f47963408efd14b20a5d6ddeac97.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/b9597a535d6a9e531662b2d134e16e50d72fdeaf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f47f4d5bdfd7d7bf330945b8a7ccce4ab437a710">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_d78fdeeee999bc31aa3d542bf8949d8be8e6d92f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/b867f04b2b1da62edadfd420623c3b2ef9e6a7aa/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="76ea35b41786082af23db898ca9e0fc07cc71fb9">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_a040174197cc3d689f9ffc41bec638c0aa39914f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/472186eb8fa21c11f12436e174f079348cf2da21/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f2cb88e7e28736d44e7e643deb80c9af1c3662c8">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_b544d0d12d53729687cde5a120514672dee424cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/6bc4b83b29fe447075778c9e69d6088025e862fd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f5ff5e3811e8c9485fd27f9052ae4d4d23a22d9d">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_ed25d9cf4604e3cf10f528cf3cdce022cba021cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/847965ae5cdbafec8abb8122f5a33565ec8b4bc3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6b3430725095bd46b785e97bd34240826c27b4db">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_9343c01a72da99a34d5b4a1cbcb55c08fc72b752.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/6063520c8ca898c3c8f64c906d0672381f3a37c6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4b685077cdb08cf7ae8b61afd1fe910e47d91b9a">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_0fbe08de54afdd8277a53f5496c1d69997cd34ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/46c21cffaea59df517a2cdc731a988f5cbc1e48c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_012ac90cfa147cdd979c9f5837524c4513d4ed2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/b83064802cbcb97a10097623064b01cdbff2e092/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8544f739799dd15db63927073a21312864ab0bfd">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_28de6377c73b091e9cfa98ec346618df6c6916f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/saurav/.android/build-cache/6bb2c7b25912da10e11b15e3789fa7d3896cfbf1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c72b1515efbd8ad652e2d63582c8234a979b1e53">
+        <dex dex="/home/saurav/Desktop/Loc-Track/app/build/intermediates/pre-dexed/debug/classes_f5175cef4f5ca9d0b941c892d96c1494fa0374d9.jar" />
+    </item>
+
+</items>
