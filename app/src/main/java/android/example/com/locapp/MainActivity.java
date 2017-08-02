@@ -26,6 +26,7 @@ import android.os.Handler;
 import android.provider.Settings;
 import android.provider.SyncStateContract;
 import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.os.ResultReceiver;
 import android.support.v7.app.AlertDialog;
 import android.util.Log;
@@ -46,10 +47,10 @@ public class MainActivity extends Activity {
     private EditText mEdittext1;
     private EditText longitude;
     private EditText address;
-    private Button button;
     public static AddressResultReceiver mAddressResultREceiver;
     private ProgressBar mProgressbar;
     private Handler handler;
+    public static final int MY_PERMISSIONS_REQUEST_LOCATION = 99;
     private Button button23;
 
 
@@ -62,8 +63,7 @@ public class MainActivity extends Activity {
         mEdittext1 = (EditText) findViewById(R.id.latitudeEdit);
         longitude = (EditText) findViewById(R.id.longitudeEdit);
         address = (EditText) findViewById(R.id.addressEdit);
-        button = (Button) findViewById(R.id.button);
-        button23 = (Button) findViewById(R.id.button2);
+        button23 = (Button) findViewById(R.id.button);
         button23.setOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View view) {
                 Intent intent = new Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS,
@@ -75,7 +75,7 @@ public class MainActivity extends Activity {
         mProgressbar = (ProgressBar) findViewById(R.id.progressBar);
         handler = new Handler();
         mAddressResultREceiver = new AddressResultReceiver(handler);
-        button.setOnClickListener(new View.OnClickListener() {
+        button23.setOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,
                     GeoCodeAddressIntentService.class);
@@ -104,18 +104,70 @@ public class MainActivity extends Activity {
 
         provider = LocationManager.NETWORK_PROVIDER;
 
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) !=
-                PackageManager.PERMISSION_GRANTED &&
-                ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) !=
-                        PackageManager.PERMISSION_GRANTED) {
-            // TODO: Consider calling
-            //    ActivityCompat#requestPermissions
-            // here to request the missing permissions, and then overriding
-            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-            //                                          int[] grantResults)
-            // to handle the case where the user grants the permission. See the documentation
-            // for ActivityCompat#requestPermissions for more details.
-            return;
+       checkLocationPermission();
+    }
+
+    public boolean checkLocationPermission() {
+        if (ContextCompat.checkSelfPermission(this,
+                Manifest.permission.ACCESS_FINE_LOCATION)
+                != PackageManager.PERMISSION_GRANTED) {
+
+            if (ActivityCompat.shouldShowRequestPermissionRationale(this,
+                    Manifest.permission.ACCESS_FINE_LOCATION)) {
+
+                new AlertDialog.Builder(this)
+                        .setTitle("Enable location permission")
+                        .setMessage("You need to enable location permission")
+                        .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                //Prompt the user once explanation has been shown
+                                ActivityCompat.requestPermissions(MainActivity.this,
+                                        new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
+                                        MY_PERMISSIONS_REQUEST_LOCATION);
+                            }
+                        })
+                        .create()
+                        .show();
+
+
+            } else {
+                ActivityCompat.requestPermissions(this,
+                        new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
+                        MY_PERMISSIONS_REQUEST_LOCATION);
+            }
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode,
+                                           String permissions[], int[] grantResults) {
+        switch (requestCode) {
+            case MY_PERMISSIONS_REQUEST_LOCATION: {
+
+                if (grantResults.length > 0
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+
+
+                    if (ContextCompat.checkSelfPermission(this,
+                            Manifest.permission.ACCESS_FINE_LOCATION)
+                            == PackageManager.PERMISSION_GRANTED) {
+
+                        //Request location updates:
+                        locationManager.requestLocationUpdates(provider, 400, 1, mLocationListener);
+                    }
+
+                } else {
+
+                    return;
+                }
+                return;
+            }
+
         }
     }
 
@@ -185,23 +237,15 @@ public class MainActivity extends Activity {
     @Override protected void onStart() {
         super.onStart();
 
-        if(checkEnabled()){
 
-            if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) !=
-                    PackageManager.PERMISSION_GRANTED &&
-                    ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) !=
-                            PackageManager.PERMISSION_GRANTED) {
-                // TODO: Consider calling
-                //    ActivityCompat#requestPermissions
-                // here to request the missing permissions, and then overriding
-                //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-                //                                          int[] grantResults)
-                // to handle the case where the user grants the permission. See the documentation
-                // for ActivityCompat#requestPermissions for more details.
-                return;
+        if (checkLocationPermission()) {
+            if (ContextCompat.checkSelfPermission(this,
+                    Manifest.permission. ACCESS_FINE_LOCATION)
+                    == PackageManager.PERMISSION_GRANTED) {
+
+                //Request location updates:
+                locationManager.requestLocationUpdates(provider, 400, 1, mLocationListener);
             }
-            locationManager.requestLocationUpdates(provider, 400, 1, mLocationListener);
-
         }
     }
 
@@ -212,23 +256,15 @@ public class MainActivity extends Activity {
     @Override
     protected void onResume() {
         super.onResume();
-        if(checkEnabled()){
 
-            if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) !=
-                    PackageManager.PERMISSION_GRANTED &&
-                    ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) !=
-                            PackageManager.PERMISSION_GRANTED) {
-                // TODO: Consider calling
-                //    ActivityCompat#requestPermissions
-                // here to request the missing permissions, and then overriding
-                //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-                //                                          int[] grantResults)
-                // to handle the case where the user grants the permission. See the documentation
-                // for ActivityCompat#requestPermissions for more details.
-                return;
+        if (checkLocationPermission()) {
+            if (ContextCompat.checkSelfPermission(this,
+                    Manifest.permission. ACCESS_FINE_LOCATION)
+                    == PackageManager.PERMISSION_GRANTED) {
+
+                //Request location updates:
+                locationManager.requestLocationUpdates(provider, 400, 1, mLocationListener);
             }
-            locationManager.requestLocationUpdates(provider, 400, 1, mLocationListener);
-
         }
     }
 
