@@ -50,8 +50,9 @@ public class MainActivity extends Activity {
     public static AddressResultReceiver mAddressResultREceiver;
     private ProgressBar mProgressbar;
     private Handler handler;
-    public static final int MY_PERMISSIONS_REQUEST_LOCATION = 99;
+    public static final int PERMISSIONS_MULTIPLE_REQUESTS = 123;
     private Button button23;
+    private Button maps;
 
 
 
@@ -63,6 +64,20 @@ public class MainActivity extends Activity {
         mEdittext1 = (EditText) findViewById(R.id.latitudeEdit);
         longitude = (EditText) findViewById(R.id.longitudeEdit);
         address = (EditText) findViewById(R.id.addressEdit);
+        maps = (Button) findViewById(R.id.buttonmaps);
+        maps.setOnClickListener(new View.OnClickListener() {
+            @Override public void onClick(View view) {
+                String lon = longitude.getText().toString();
+                String lat = mEdittext1.getText().toString();
+                Uri gmmIntentUri = Uri.parse("geo" + ":" + lon + "," + lat);
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                if (mapIntent.resolveActivity(getPackageManager()) != null) {
+                    startActivity(mapIntent);
+                }
+
+            }
+        });
         button23 = (Button) findViewById(R.id.button);
         button23.setOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View view) {
@@ -110,7 +125,7 @@ public class MainActivity extends Activity {
     public boolean checkLocationPermission() {
         if (ContextCompat.checkSelfPermission(this,
                 Manifest.permission.ACCESS_FINE_LOCATION)
-                != PackageManager.PERMISSION_GRANTED) {
+                != PackageManager.PERMISSION_GRANTED ) {
 
             if (ActivityCompat.shouldShowRequestPermissionRationale(this,
                     Manifest.permission.ACCESS_FINE_LOCATION)) {
@@ -123,8 +138,8 @@ public class MainActivity extends Activity {
                             public void onClick(DialogInterface dialogInterface, int i) {
                                 //Prompt the user once explanation has been shown
                                 ActivityCompat.requestPermissions(MainActivity.this,
-                                        new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
-                                        MY_PERMISSIONS_REQUEST_LOCATION);
+                                        new String[]{Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.CAMERA },
+                                        PERMISSIONS_MULTIPLE_REQUESTS);
                             }
                         })
                         .create()
@@ -133,8 +148,8 @@ public class MainActivity extends Activity {
 
             } else {
                 ActivityCompat.requestPermissions(this,
-                        new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
-                        MY_PERMISSIONS_REQUEST_LOCATION);
+                        new String[]{Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.CAMERA},
+                        PERMISSIONS_MULTIPLE_REQUESTS);
             }
             return false;
         } else {
@@ -147,10 +162,10 @@ public class MainActivity extends Activity {
     public void onRequestPermissionsResult(int requestCode,
                                            String permissions[], int[] grantResults) {
         switch (requestCode) {
-            case MY_PERMISSIONS_REQUEST_LOCATION: {
+            case PERMISSIONS_MULTIPLE_REQUESTS: {
 
                 if (grantResults.length > 0
-                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED && grantResults[1] == PackageManager.PERMISSION_GRANTED) {
 
 
                     if (ContextCompat.checkSelfPermission(this,

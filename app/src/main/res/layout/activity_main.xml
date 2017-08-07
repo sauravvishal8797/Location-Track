@@ -53,6 +53,11 @@
             android:text="Fetch Address"
             android:id="@+id/button"/>
 
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show in  maps"
+            android:id="@+id/buttonmaps"/>
+
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -62,6 +67,8 @@
         android:layout_gravity="center_horizontal"
         android:layout_centerHorizontal="true"
         android:visibility="invisible"/>
+
+
 
 
 
